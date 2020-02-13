@@ -1,0 +1,58 @@
+{
+  "name": "boilerplate-react",
+  "version": "0.1.0",
+  "description": "Boilerplate react with parcel",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximilien-mao/boilerplate-react.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "react",
+    "parcel"
+  ],
+  "author": "maximilien mao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximilien-mao/boilerplate-react/issues"
+  },
+  "homepage": "https://github.com/maximilien-mao/boilerplate-react#readme",
+  "scripts": {
+    "test": "jest --watch",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "lint": "eslint src/"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.js",
+      "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
+    }
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@fullhuman/postcss-purgecss": "^2.0.6",
+    "@svgr/parcel-plugin-svgr": "^5.1.0",
+    "@testing-library/react": "^9.4.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-react-minimal": "^1.1.2",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "jest": "^25.1.0",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^1.5.0",
+    "sass": "^1.25.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
