@@ -10,7 +10,7 @@ lerna-debug.log*
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 #yarn
-.yarn
+.yarn/
 
 # Runtime data
 pids
@@ -110,4 +110,4 @@ dist
 .vscode-test
 
 #webstorm
-.idea
+.idea/
